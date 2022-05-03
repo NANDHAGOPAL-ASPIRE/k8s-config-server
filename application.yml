@@ -25,4 +25,4 @@ admin:
 webtoken:
   timeout:
     in:
-      minutes: 600
+      minutes: 15
