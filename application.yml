@@ -26,3 +26,12 @@ webtoken:
   timeout:
     in:
       minutes: 15
+
+#AWS SES secretsmanager
+aws:
+  ses:
+    secretsmanager:
+      accessKey: ${SM_ACCESSKEY:XXXX}
+      secretKey: ${SM_SECRETKEY:XXXX}
+      secretName: ${SM_SECRETNAME:XXXX}
+      region: ${SM_REGION:XXXX}
