@@ -27,7 +27,7 @@ webtoken:
     in:
       minutes: 15
 jwt:
-  secretKey: ${JWT_SECRETKEY:XXXX}
+  secretKey: ${JWT_SECRETKEY}
 
 #AWS SES secretsmanager
 aws:
