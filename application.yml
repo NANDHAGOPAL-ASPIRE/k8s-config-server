@@ -26,6 +26,8 @@ webtoken:
   timeout:
     in:
       minutes: 15
+jwt:
+  secretKey: ${JWT_SECRETKEY:XXXX}
 
 #AWS SES secretsmanager
 aws:
